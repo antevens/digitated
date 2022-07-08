@@ -1,0 +1,12 @@
+Digitated
+===============
+
+
+License:
+Code - LGPL v3 or later (contains some code from mesecons, digilines and digistuff)
+Textures CC BY-SA 3.0 Generic (contains modified versions of textures from mesecons, digilines and digistuff)
+
+
+Depends:
+Required: digilines (base only), mesecons (base only), digistuff,  mesecons_luacontroller
+Only needed for craft recipes: default, basic_materials
