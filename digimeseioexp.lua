@@ -130,7 +130,7 @@ for i=0,15,1 do
 		selection_box = {
 			--From luacontroller
 			type = "fixed",
-			fixed = { -8/16, -8/16, -8/16, 8/16, -5/16, 8/16 },
+			fixed = { -8/16, -8/16, -8/16, 8/16, 8/16, 8/16 },
 		},
 		node_box = {
 			--From Luacontroller
@@ -205,7 +205,7 @@ minetest.register_craft({
 	output = "digitated:digimeseioexp_0 ",
 	recipe = {
 		{"","digistuff:digimese","",},
-		{"","digitated:digimeseioexp_0","",},
+		{"","digistuff:ioexpander_0","",},
 		{"","","",},
 	}
 })

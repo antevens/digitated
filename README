@@ -10,3 +10,8 @@ Textures CC BY-SA 3.0 Generic (contains modified versions of textures from mesec
 Depends:
 Required: digilines (base only), mesecons (base only), digistuff,  mesecons_luacontroller
 Only needed for craft recipes: default, basic_materials
+
+Implements a Digiline IO Expander which can be stacked vertically like a Mese/DigiMese block.
+Each side acts like a regular Digistuff IO Expander with a channel and individually
+addressable ports but the top/bottom conduct Digiline signals allowing signals
+to propagate allowing multiple expanders to be stacked or used to conduct.
