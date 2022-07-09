@@ -22,12 +22,12 @@ end
 
 local gettiles = function(state)
 	local tiles = {
-		"digitate_digimeseexp_top.png",
+		"digitated_digimeseexp_top.png",
 		"digistuff_digimese.png",
-                "digitate_digimeseexp_sides.png",
-		"digitate_digimeseexp_sides.png",
-                "digitate_digimeseexp_sides.png",
-                "digitate_digimeseexp_sides.png"
+                "digitated_digimeseexp_sides.png",
+		"digitated_digimeseexp_sides.png",
+                "digitated_digimeseexp_sides.png",
+                "digitated_digimeseexp_sides.png"
 	}
 	local port = explode_port_states(state)
 	for p,v in pairs(port) do
