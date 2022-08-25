@@ -124,7 +124,7 @@ for i=0,15,1 do
 		end,
 		_digitated_channelcopier_fieldname = "channel",
 		tiles = gettiles(i),
-		inventory_image = "digitate_digimeseexp_top.png",
+		inventory_image = "digitated_digimeseexp_top.png",
 		drawtype = "nodebox",
 		drop = "digitated:digimeseioexp_0",
 		selection_box = {
